@@ -1,0 +1,38 @@
+{
+  "name": "@arkhamcookie/nodejs-template",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A basic nodejs template.",
+  "keywords": [],
+  "homepage": "https://github.com/ArkhamCookie/nodejs-template",
+  "bugs": {
+    "url": "https://github.com/ArkhamCookie/nodejs-template/issues",
+    "email": "bugs@mail.theuntitledproject.dev"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ArkhamCookie",
+    "email": "npm@mail.theuntitledproject.dev",
+    "url": "https://theuntitledproject.dev"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkhamCookie/nodejs-template"
+  },
+  "config": {},
+  "scripts": {
+    "lint": "eslint ./*.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "minimal-discord-webhook-node": "^1.0.0"
+  }
+}
