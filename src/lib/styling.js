@@ -19,6 +19,4 @@ function discordStyle(text, styling) {
 	// message = italic(text)
 }
 
-discordStyle('bold', 'bold')
-
 export { discordStyle }
