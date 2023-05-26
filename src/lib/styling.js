@@ -11,10 +11,22 @@ const strikethrough = '~~' + text + '~~'
 */
 
 function discordStyle(text, styling) {
+	if (styling === 'italic') {
+		message = '*' + text + '*'
+		send(message)
+		console.log(chalk.bold(text))
+	}
+
 	if (styling === 'bold') {
 		message = '**' + text + '**'
 		send(message)
 		console.log(chalk.bold(text))
+	}
+
+	if (styling === 'strikethrough') {
+		message = '~~' + text + '~~'
+		send(message)
+		console.log(chalk.yellow(text))
 	}
 	// message = italic(text)
 }
