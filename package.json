@@ -1,12 +1,12 @@
 {
-  "name": "@arkhamcookie/nodejs-template",
+  "name": "discord-nodeify",
   "version": "1.0.0",
   "type": "module",
   "description": "A basic nodejs template.",
   "keywords": [],
-  "homepage": "https://github.com/ArkhamCookie/nodejs-template",
+  "homepage": "https://github.com/ArkhamCookie/discord-nodeify",
   "bugs": {
-    "url": "https://github.com/ArkhamCookie/nodejs-template/issues",
+    "url": "https://github.com/ArkhamCookie/discord-nodeify/issues",
     "email": "bugs@mail.theuntitledproject.dev"
   },
   "license": "MIT",
@@ -15,23 +15,25 @@
     "email": "npm@mail.theuntitledproject.dev",
     "url": "https://theuntitledproject.dev"
   },
-  "main": "index.js",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkhamCookie/nodejs-template"
+    "url": "git+https://github.com/ArkhamCookie/discord-nodeify"
   },
   "config": {},
   "scripts": {
-    "lint": "eslint ./*.js"
+    "lint": "eslint ./src/*.js ./src/**/*.js"
   },
   "devDependencies": {
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
     "dotenv": "^16.0.3",
     "minimal-discord-webhook-node": "^1.0.0"
   }

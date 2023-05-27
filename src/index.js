@@ -1,7 +1,4 @@
-import { Webhook } from 'minimal-discord-webhook-node'
-import { hook } from './config/config.js'
-import { send } from './lib/send.js'
+// import { send } from './lib/send.js'
+import { discordStyle } from './lib/styling.js'
 
-const username = hook.setUsername('Nodeify')
-
-send('Hello ES6!')
+discordStyle('Hello from Termux', 'bold')

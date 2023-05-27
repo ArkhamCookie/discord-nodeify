@@ -3,7 +3,7 @@ import 'dotenv/config'
 
 const hook = new Webhook({
 	url: process.env.WEBHOOK_URL,
-	throwErrors: false,
+	throwErrors: true,
 	retryOnLimit: false
 })
 
