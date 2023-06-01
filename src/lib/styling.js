@@ -2,22 +2,21 @@ import chalk from 'chalk'
 // import { send } from '../lib/send.js'
 
 function discordStyle(text, styling) {
-	if (styling === 'italic') {
-		// console.log(chalk.bold(text))
+	switch (styling) {
+	case 'italic': {
 		const italicText = '*' + text + '*'
 		return italicText
 	}
-
-	if (styling === 'bold') {
-		// console.log(chalk.bold(text))
+	case 'bold': {
 		const boldText = '**' + text + '**'
 		return boldText
 	}
-
-	if (styling === 'strikethrough') {
-		// console.log(chalk.yellow(text))
+	case 'strikethrough': {
 		const strikethroughText = '~~' + text + '~~'
 		return strikethroughText
+	}
+	default:
+		return text
 	}
 }
 
