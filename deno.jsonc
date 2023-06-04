@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-all server.js",
+	"lint": "deno lint ./*.js ./src/*.js ./src/*/*.js ./tests/*.js",
+	"test": "deno task lint && deno run --allow-all ./tests/*.js"
+  }
+}
