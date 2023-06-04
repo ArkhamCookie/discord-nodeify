@@ -1,6 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S deno run --allow-env
 
-import 'dotenv/config'
 import { send } from '../src/lib/send.js'
 // import { discordStyle } from '../src/lib/styling.js'
 import { style } from '../src/lib/markdownStyling.js'
