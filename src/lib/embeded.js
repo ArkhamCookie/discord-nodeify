@@ -1,4 +1,4 @@
-import { MessageBuilder } from 'minimal-discord-webhook-node'
+import { MessageBuilder } from 'npm:minimal-discord-webhook-node@1'
 import { hook } from './send.js'
 
 const embed = new MessageBuilder()

@@ -1,4 +1,4 @@
-import chalk from 'chalk'
+import chalk from 'npm:chalk@5.2'
 // import { send } from '../lib/send.js'
 
 function discordStyle(text, styling) {
