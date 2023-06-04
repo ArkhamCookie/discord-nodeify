@@ -1,16 +1,10 @@
-function style(input) {
-	const markdownStyle = {
-		italic: '*' + input + '*'
+class Style {
+	constructor(input) {
+		this.italic = '*' + input + '*'
+		this.bold = '**' + input + '**'
+		this.boldItalic = '***' + input + '***'
+		this.strikethrough = '~~' + input + '~~'
 	}
-	const output = markdownStyle.italic
-	return output
 }
 
-export { style }
-
-/*
-import { send } from './send.js'
-
-console.log('This is a message with ' + style('italic') + ' text!')
-send('This is a message with ' + style('italic') + ' text!')
-*/
+export { Style }
