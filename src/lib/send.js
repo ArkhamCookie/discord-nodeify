@@ -1,7 +1,7 @@
-import { hook } from '../config/config.js'
+import { HOOK } from '../config/config.js'
 
 function send(message) {
-	hook.send(message)
+	HOOK.send(message)
 }
 
 export { send }

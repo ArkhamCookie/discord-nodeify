@@ -1,5 +1,5 @@
 import { MessageBuilder } from 'npm:minimal-discord-webhook-node@1'
-import { hook } from './send.js'
+import { HOOK } from './send.js'
 
 const embed = new MessageBuilder()
 	/* eslint-disable no-undef */
@@ -18,7 +18,7 @@ const embed = new MessageBuilder()
 	// .setAuthor('foo')
 
 function sendEmbeded(message, embed) {
-	hook.send(embed)
+	HOOK.send(embed)
 		.setTitle(message)
 		.setAuthor('foo')
 }
@@ -28,6 +28,6 @@ export { embed, sendEmbeded }
 // /*
 console.log(embed)
 
-hook.send(embed)
+HOOK.send(embed)
 // sendEmbeded('This is a message...')
 // */
