@@ -1,4 +1,4 @@
-import chalk from 'npm:chalk@5.2'
+import chalk from 'https://deno.land/x/chalk_deno@v4.1.1-deno/source/index.js'
 // import { send } from '../lib/send.js'
 
 function discordStyle(text, styling) {
