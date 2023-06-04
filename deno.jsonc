@@ -1,0 +1,8 @@
+{
+  "tasks": {
+	"cache": "deno cache ./src/*.js ./src/*/*.js ./tests/*.js",
+	"dev": "deno task cache ; deno run --watch --allow-all server.js",
+	"lint": "deno lint ./src/*.js ./src/*/*.js ./tests/*.js",
+	"test": "deno task lint && deno run --allow-all ./tests/*.js"
+  }
+}

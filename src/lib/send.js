@@ -1,14 +1,7 @@
-import { Webhook } from 'minimal-discord-webhook-node'
-import 'dotenv/config'
-
-const hook = new Webhook({
-	url: process.env.WEBHOOK_URL,
-	throwErrors: true,
-	retryOnLimit: false
-})
+import { HOOK } from '../config/config.js'
 
 function send(message) {
-	hook.send(message)
+	HOOK.send(message)
 }
 
-export { hook, send }
+export { send }
