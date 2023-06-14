@@ -24,9 +24,7 @@
 
 	"dev": "deno task cache ; deno lint --watch ; deno run --watch --allow-all server.js",
 	"test:send": "deno run --allow-all ./tests/test-send.js",
-	"test:all": "deno task lint && deno run --allow-all ./tests/*.js",
-
-	"ping": "deno run --allow-env --allow-net=discord.com ./test/test-send.js"
+	"test:all": "deno task lint && deno run --allow-all ./tests/*.js"
   },
   "nodeModulesDir": true,
   "imports": {
