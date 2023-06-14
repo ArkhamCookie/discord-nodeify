@@ -1,8 +1,31 @@
 {
+  "lint": {
+	"include": [],
+	"exclude": ["node_modules"],
+	"rules": {
+		"tags": ["recommended"],
+		"exclude": [],
+		"include": []
+	}
+  },
+  "fmt": {
+	"include": ["src/"],
+	"exclude": ["node_modules"],
+    "useTabs": true,
+	"lineWidth": 80,
+	"indentWidth": 4,
+	"semiColons": false,
+	"singleQuote": true
+  },
   "tasks": {
 	"cache": "deno cache ./src/*.js ./src/*/*.js ./tests/*.js",
-	"dev": "deno task cache ; deno run --watch --allow-all server.js",
-	"lint": "deno lint ./src/*.js ./src/*/*.js ./tests/*.js",
+	"lint": "deno lint ./src",
+	"fmt": "deno fmt ./src/*.js ./src/*/*.js ./",
+	"dev": "deno task cache ; deno lint --watch ; deno run --watch --allow-all server.js",
 	"test": "deno task lint && deno run --allow-all ./tests/*.js"
+  },
+  "nodeModulesDir": true,
+  "imports": {
+	"std": "https://deno.land/std@0.191.0/dotenv/load.ts"
   }
 }
