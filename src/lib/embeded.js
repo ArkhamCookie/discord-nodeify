@@ -1,10 +1,14 @@
-import { MessageBuilder } from 'npm:minimal-discord-webhook-node@1'
+import { MessageBuilder } from 'discord-webhook'
 import { HOOK } from './send.js'
 
 const embed = new MessageBuilder()
 	/* eslint-disable no-undef */
 	.setTitle('My title here')
-	.setAuthor('Author here', 'https://cdn.discordapp.com/embed/avatars/0.png', 'https://github.com/ArkhamCookie')
+	.setAuthor(
+		'Author here',
+		'https://cdn.discordapp.com/embed/avatars/0.png',
+		'https://github.com/ArkhamCookie'
+	)
 	.setURL('https://arkhamcookie.omg.lol')
 	.addField('First field', 'this is inline', true)
 	.addField('Second field', 'this is not inline')
@@ -12,10 +16,13 @@ const embed = new MessageBuilder()
 	.setThumbnail('https://cdn.discordapp.com/embed/avatars/0.png')
 	.setDescription('Oh look a description :)')
 	.setImage('https://cdn.discordapp.com/embed/avatars/0.png')
-	.setFooter('Hey its a footer', 'https://cdn.discordapp.com/embed/avatars/0.png')
+	.setFooter(
+		'Hey its a footer',
+		'https://cdn.discordapp.com/embed/avatars/0.png'
+	)
 	.setTimestamp()
-	/* eslint-enable no-undef */
-	// .setAuthor('foo')
+/* eslint-enable no-undef */
+// .setAuthor('foo')
 
 function sendEmbeded(message, embed) {
 	HOOK.send(embed)
