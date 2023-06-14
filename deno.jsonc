@@ -21,11 +21,16 @@
 	"cache": "deno cache ./src/*.js ./src/*/*.js ./tests/*.js",
 	"lint": "deno lint ./src",
 	"fmt": "deno fmt ./src/*.js ./src/*/*.js ./",
+
 	"dev": "deno task cache ; deno lint --watch ; deno run --watch --allow-all server.js",
-	"test": "deno task lint && deno run --allow-all ./tests/*.js"
+	"test:send": "deno run --allow-all ./tests/test-send.js",
+	"test:all": "deno task lint && deno run --allow-all ./tests/*.js",
+
+	"ping": "deno run --allow-env --allow-net=discord.com ./test/test-send.js"
   },
   "nodeModulesDir": true,
   "imports": {
-	"std": "https://deno.land/std@0.191.0/dotenv/load.ts"
+	"dotenv": "https://deno.land/std@0.191.0/dotenv/load.ts",
+	"discord-webhook": "npm:minimal-discord-webhook-node@1"
   }
 }
