@@ -1,4 +1,4 @@
-name: manual-webhook
+name: Manual Workflow
 run-name: ${{ github.actor }} sent a webhook.
 
 on:
