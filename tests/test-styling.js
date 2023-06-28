@@ -2,10 +2,10 @@
 
 import { send } from '../src/lib/send.js'
 // import { discordStyle } from '../src/lib/styling.js'
-import { style } from '../src/lib/markdownStyling.js'
+import { Style } from '../src/lib/markdownStyling.js'
 
 function styleTest(input, log) {
-	const output = style(input)
+	const output = new Style(input)
 
 	switch (log) {
 	case true:
