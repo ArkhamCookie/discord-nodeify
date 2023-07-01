@@ -1,0 +1,14 @@
+{
+	"embeds": [{
+		"color": 16711680,
+		"author": {
+			"name": "<<<{{channelName}}>>>",
+			"icon_url": "https://avatar-resolver.vercel.app/youtube-avatar/q?url={{Url}}"
+		},
+		"title": "<<<{{title}}>>>",
+		"url": "{{url}}",
+		"description": "<<<{{description}}>>>",
+		"image": { "url": "https://avatar-resolver.vercel.app/youtube-thumbnail/q?url={{Url}}" },
+		"footer": { "text": "Published at {{publishedAt}}" }
+	}]
+}
