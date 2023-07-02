@@ -1,14 +1,54 @@
 import { Webhook } from 'discord-webhook'
 import 'dotenv'
 
-const TOKEN = Deno.env.get('TOKEN')
-const CLIENT_ID = Deno.env.get('CLIENT_ID')
-const DENO_BUD = Deno.env.get('DENO_BUD')
-
+/** Webhook Config */
 const HOOK = new Webhook({
 	url: Deno.env.get('WEBHOOK_URL'),
 	throwErrors: true,
 	retryOnLimit: false
 })
 
-export { CLIENT_ID, DENO_BUD, HOOK, TOKEN }
+/** Bot Config */
+const CLIENT_ID = Deno.env.get('CLIENT_ID')
+const BOT_TOKEN = Deno.env.get('BOT_TOKEN')
+
+/** Config Options */
+const SERVER_ID = Deno.env.get('SERVER_ID')
+const BASE_PATH = Deno.env.get('BASE_PATH')
+
+/** Config Verify */
+async function fileExists(file) {
+	if (!BASE_PATH) {
+		console.warn('BASE_PATH isn\'t set')
+		return false
+	}
+	try {
+		await Deno.stat(file)
+		return true
+	} catch (error) {
+		if (error) {
+			console.warn('BASE_PATH doesn\'t exist')
+			return false
+		} else {
+			throw error
+		}
+	}
+}
+
+function emptyCheck(option) {
+	if (!option) {
+		console.warn(option + 'isn\'t set')
+		return false
+	}
+	return true
+}
+
+fileExists(BASE_PATH)
+
+emptyCheck(CLIENT_ID)
+emptyCheck(BOT_TOKEN)
+emptyCheck(SERVER_ID)
+
+emptyCheck(HOOK.hookURL)
+
+export { CLIENT_ID, BOT_TOKEN, HOOK, SERVER_ID }
