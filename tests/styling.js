@@ -1,7 +1,6 @@
 #!/usr/bin/env -S deno run --allow-env
 
 import { send } from '../src/lib/send.js'
-// import { discordStyle } from '../src/lib/styling.js'
 import { Style } from '../src/lib/markdownStyling.js'
 
 function styleTest(input, log) {
