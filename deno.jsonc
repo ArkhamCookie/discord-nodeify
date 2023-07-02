@@ -24,11 +24,13 @@
 
 	"dev": "deno task cache ; deno lint --watch ; deno run --watch --allow-all server.js",
 	"test:send": "deno run --allow-all ./tests/test-send.js",
+	"test:feed": "deno run --allow-net ./src/config/feeds/youtube.js",
 	"test:all": "deno task lint && deno run --allow-all ./tests/*.js"
   },
   "nodeModulesDir": true,
   "imports": {
 	"dotenv": "https://deno.land/std@0.191.0/dotenv/load.ts",
-	"discord-webhook": "npm:minimal-discord-webhook-node@1"
+	"discord-webhook": "npm:minimal-discord-webhook-node@1",
+	"rss": "https://deno.land/x/rss@0.6.0/mod.ts"
   }
 }
