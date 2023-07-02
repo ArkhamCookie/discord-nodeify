@@ -8,3 +8,5 @@
 4. Replace `<CHANNEL_ID>` with the target channel's ID in
   `https://youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>`
   *The `<>` are just for the example, remember to remove them.*
+
+Example URL: <https://youtube.com/feeds/videos.xml?channel_id=UCFKDEp9si4RmHFWJW1vYsMA>
