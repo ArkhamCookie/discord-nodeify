@@ -8,4 +8,16 @@ const response = await fetch(target)
 const xml = await response.text()
 const feed = await parseFeed(xml)
 
-console.log(feed.title.value)
+class YoutubeFeed {
+	constructor(feed) {
+		this.title = feed.title.value
+	}
+
+	entries(entries) {
+		console.log(entries)
+	}
+}
+
+const youtubeEtho = new YoutubeFeed(feed)
+
+console.log(youtubeEtho)
