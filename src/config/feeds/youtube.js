@@ -41,8 +41,6 @@ class YoutubeFeed {
 			.setImage(this.thumbnail)
 			.setColor('#FF0000')
 			// .setFooter(this.authorUrl, 'https://yt3.googleusercontent.com/ytc/AOPolaTuRnaVi7_ll-vH08j-PeM4VqS1Ja1fEwV4zjF5=s176-c-k-c0x00ffffff-no-rj')
-			.addField('foo', 'hey', true)
-			.addField('boo', 'hi')
 
 		HOOK.send(this.embedded)
 	}
