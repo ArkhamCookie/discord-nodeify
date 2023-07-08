@@ -20,11 +20,11 @@ class YoutubeFeed {
 		this.author = feed.author.name
 		this.authorUrl = feed.author.uri
 
-		this.latest = feed.entries[0]
+		this.latest = entries[0]
 		this.title = this.latest.title.value
 		this.url = this.latest.links[0].href
 
-		this.media = entries[0][MediaRss.Group]
+		this.media = this.latest[MediaRss.Group]
 		this.description = this.media[MediaRss.Description].value
 		this.thumbnail = this.media['media:thumbnail'].url
 	}
@@ -54,4 +54,7 @@ class YoutubeFeed {
 
 const youtubeEtho = new YoutubeFeed(feed)
 
-youtubeEtho.send()
+console.log(youtubeEtho.latest)
+// console.log('<!-- -->')
+
+// youtubeEtho.send()
