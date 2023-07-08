@@ -45,10 +45,10 @@ function emptyCheck(option) {
 
 fileExists(BASE_PATH)
 
-emptyCheck(CLIENT_ID)
-emptyCheck(BOT_TOKEN)
-emptyCheck(SERVER_ID)
+const options = [HOOK.hookURL, CLIENT_ID, BOT_TOKEN, SERVER_ID, BASE_PATH]
 
-emptyCheck(HOOK.hookURL)
+for (let i = 0; i < options.length; i++) {
+	emptyCheck(options[i])
+}
 
 export { CLIENT_ID, BOT_TOKEN, HOOK, SERVER_ID }
