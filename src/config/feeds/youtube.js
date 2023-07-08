@@ -29,10 +29,6 @@ class YoutubeFeed {
 		this.thumbnail = this.media['media:thumbnail'].url
 	}
 
-	fetch() {
-		this.foo = this.latest['yt:videoid'].value
-	}
-
 	send() {
 		HOOK.setUsername('YouTube')
 		HOOK.setAvatar('https://lh3.googleusercontent.com/DMPqTbcN-R_kPwzF0qg9zZH8UPLtVBoqrDQ_63zhmIq5NUBrllM5Xkj2h7Bi0X_KPzJ6_sTvRFIXWB2HIEeFd2EtnRyUbs0uWTPey3MYtSICaibNBfcA=v0-s1050')
@@ -54,7 +50,4 @@ class YoutubeFeed {
 
 const youtubeEtho = new YoutubeFeed(feed)
 
-console.log(youtubeEtho.latest)
-// console.log('<!-- -->')
-
-// youtubeEtho.send()
+youtubeEtho.send()
