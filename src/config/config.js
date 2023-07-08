@@ -1,3 +1,4 @@
+import { existsSync } from 'https://deno.land/std@0.193.0/fs/mod.ts'
 import { Webhook } from 'discord-webhook'
 import 'dotenv'
 
@@ -14,27 +15,22 @@ const BOT_TOKEN = Deno.env.get('BOT_TOKEN')
 
 /** Config Options */
 const SERVER_ID = Deno.env.get('SERVER_ID')
-const BASE_PATH = Deno.env.get('BASE_PATH')
+// console.log(Deno.env.get('INIT_CWD'))
 
-/** Config Verify */
-async function fileExists(file) {
-	if (!BASE_PATH) {
-		console.warn('BASE_PATH isn\'t set')
-		return false
-	}
-	try {
-		await Deno.stat(file)
-		return true
-	} catch (error) {
-		if (error) {
-			console.warn('BASE_PATH doesn\'t exist')
-			return false
-		} else {
-			throw error
-		}
-	}
+/** Feed(s) Config */
+let CONFIG_FILE
+if (
+	existsSync(Deno.env.get('INIT_CWD') + '/config.json', {
+		isReadable: true,
+		isFile: true
+	})
+) {
+	CONFIG_FILE = Deno.env.get('INIT_CWD') + '/config.json'
+} else {
+	CONFIG_FILE = false
 }
 
+/** Config Verify */
 function emptyCheck(option) {
 	if (!option) {
 		console.warn(option + 'isn\'t set')
@@ -43,12 +39,10 @@ function emptyCheck(option) {
 	return true
 }
 
-fileExists(BASE_PATH)
-
-const options = [HOOK.hookURL, CLIENT_ID, BOT_TOKEN, SERVER_ID, BASE_PATH]
+const options = [HOOK.hookURL, CLIENT_ID, BOT_TOKEN, SERVER_ID]
 
 for (let i = 0; i < options.length; i++) {
 	emptyCheck(options[i])
 }
 
-export { CLIENT_ID, BOT_TOKEN, HOOK, SERVER_ID }
+export { BOT_TOKEN, CLIENT_ID, CONFIG_FILE, HOOK, SERVER_ID }
