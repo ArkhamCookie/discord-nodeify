@@ -1,12 +1,9 @@
-import {
-	MediaRss,
-	parseFeed
-} from 'rss'
+import { MediaRss, parseFeed } from 'rss'
 import { MessageBuilder } from 'discord-webhook'
 import { HOOK } from '../config.js'
 
 const base = 'https://youtube.com/feeds/videos.xml?channel_id='
-const id = 'UCFKDEp9si4RmHFWJW1vYsMA' // Will be moved to config
+const id = 'UCFKDEp9si4RmHFWJW1vYsMA'
 const target = base + id
 
 const response = await fetch(target)
@@ -31,7 +28,9 @@ class YoutubeFeed {
 
 	send() {
 		HOOK.setUsername('YouTube')
-		HOOK.setAvatar('https://lh3.googleusercontent.com/DMPqTbcN-R_kPwzF0qg9zZH8UPLtVBoqrDQ_63zhmIq5NUBrllM5Xkj2h7Bi0X_KPzJ6_sTvRFIXWB2HIEeFd2EtnRyUbs0uWTPey3MYtSICaibNBfcA=v0-s1050')
+		HOOK.setAvatar(
+			'https://lh3.googleusercontent.com/DMPqTbcN-R_kPwzF0qg9zZH8UPLtVBoqrDQ_63zhmIq5NUBrllM5Xkj2h7Bi0X_KPzJ6_sTvRFIXWB2HIEeFd2EtnRyUbs0uWTPey3MYtSICaibNBfcA=v0-s1050'
+		)
 
 		this.embedded = new MessageBuilder()
 			.setAuthor(this.author)
@@ -40,12 +39,13 @@ class YoutubeFeed {
 			// .setDescription(this.description)
 			.setImage(this.thumbnail)
 			.setColor('#FF0000')
-			// .setFooter(this.authorUrl, 'https://yt3.googleusercontent.com/ytc/AOPolaTuRnaVi7_ll-vH08j-PeM4VqS1Ja1fEwV4zjF5=s176-c-k-c0x00ffffff-no-rj')
+		// .setFooter(this.authorUrl, 'https://yt3.googleusercontent.com/ytc/AOPolaTuRnaVi7_ll-vH08j-PeM4VqS1Ja1fEwV4zjF5=s176-c-k-c0x00ffffff-no-rj')
 
 		HOOK.send(this.embedded)
 	}
 }
 
 const youtubeEtho = new YoutubeFeed(feed)
-
 youtubeEtho.send()
+
+export { YoutubeFeed }
