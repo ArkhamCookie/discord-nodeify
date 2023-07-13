@@ -29,7 +29,7 @@
   },
   "nodeModulesDir": true,
   "imports": {
-	"dotenv": "https://deno.land/std@0.191.0/dotenv/load.ts",
+	"dotenv": "https://deno.land/std@0.194.0/dotenv/load.ts",
 	"discord-webhook": "npm:minimal-discord-webhook-node@1",
 	"rss": "https://deno.land/x/rss@0.6.0/mod.ts"
   }
