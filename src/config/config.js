@@ -15,17 +15,23 @@ const BOT_TOKEN = Deno.env.get('BOT_TOKEN')
 
 /** Config Options */
 const SERVER_ID = Deno.env.get('SERVER_ID')
-// console.log(Deno.env.get('INIT_CWD'))
 
 /** Feed(s) Config */
 let CONFIG_FILE
 if (
-	existsSync(Deno.env.get('INIT_CWD') + '/config.json', {
+	existsSync(Deno.cwd() + '/config.json', {
 		isReadable: true,
 		isFile: true
 	})
 ) {
-	CONFIG_FILE = Deno.env.get('INIT_CWD') + '/config.json'
+	CONFIG_FILE = Deno.cwd() + '/config.json'
+} else if (
+	existsSync(Deno.cwd() + '/.env', {
+		isReadable: true,
+		isFile: true
+	})
+) {
+	CONFIG_FILE = Deno.cwd() + '/.env'
 } else {
 	CONFIG_FILE = false
 }
