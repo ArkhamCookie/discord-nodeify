@@ -37,7 +37,6 @@ if (
 }
 
 /** Config Verify */
-/*
 function emptyCheck(option) {
 	if (!option) {
 		console.warn(option + 'isn\'t set')
@@ -51,6 +50,5 @@ const options = [HOOK.hookURL, CLIENT_ID, BOT_TOKEN, SERVER_ID]
 for (let i = 0; i < options.length; i++) {
 	emptyCheck(options[i])
 }
-*/
 
 export { BOT_TOKEN, CLIENT_ID, CONFIG_FILE, HOOK, SERVER_ID }
