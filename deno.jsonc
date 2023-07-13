@@ -23,7 +23,6 @@
 	"fmt": "deno fmt ./src/*.js ./src/*/*.js ./",
 
 	"dev": "deno task cache ; deno lint --watch ; deno run --watch --allow-all server.js",
-	"test:config": "deno run --allow-read --allow-env --allow-sys ./tests/config.js",
 	"test:send": "deno run --allow-all ./tests/test-send.js",
 	"test:feed": "deno run --allow-all --allow-net ./src/config/feeds/youtube.js",
 	"test:all": "deno task lint && deno run --allow-all ./tests/*.js"
