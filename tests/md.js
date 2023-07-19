@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run --allow-env
 
-import chalk from 'https://deno.land/x/chalk_deno@v4.1.1-deno/source/index.js'
+import chalk from 'npm:chalk@5.3.0'
 import { Style } from '../src/lib/markdownStyling.js'
 
 let input
