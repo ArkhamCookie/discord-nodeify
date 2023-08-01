@@ -9,9 +9,15 @@ const HOOK = new Webhook({
 	retryOnLimit: false
 })
 
-/** Bot Config */
+/** Bot Secrets */
 const CLIENT_ID = Deno.env.get('CLIENT_ID')
 const BOT_TOKEN = Deno.env.get('BOT_TOKEN')
+
+/** Config File */
+const file = await import('../../config.json', {
+	assert: { type: 'json' }
+})
+const ConfigFile = file.default
 
 /** Feeds */
 // const youtubeBase = 'https://youtube.com/feeds/videos.xml?channel_id='
@@ -29,4 +35,4 @@ async function fetchFeed(target) {
 	return feed
 }
 
-export { BOT_TOKEN, CLIENT_ID, fetchFeed, HOOK }
+export { BOT_TOKEN, CLIENT_ID, ConfigFile, fetchFeed, HOOK }
