@@ -1,14 +1,6 @@
-import { MediaRss, parseFeed } from 'rss'
+import { MediaRss } from 'rss'
 import { MessageBuilder } from 'discord-webhook'
 import { HOOK } from '../config.js'
-
-const base = 'https://youtube.com/feeds/videos.xml?channel_id='
-const id = 'UCFKDEp9si4RmHFWJW1vYsMA'
-const target = base + id
-
-const response = await fetch(target)
-const xml = await response.text()
-const feed = await parseFeed(xml) // entries
 
 class YoutubeFeed {
 	constructor(feed) {
@@ -44,8 +36,5 @@ class YoutubeFeed {
 		HOOK.send(this.embedded)
 	}
 }
-
-const youtubeEtho = new YoutubeFeed(feed)
-youtubeEtho.send()
 
 export { YoutubeFeed }

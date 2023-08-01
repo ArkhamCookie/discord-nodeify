@@ -24,7 +24,7 @@
 
 	"dev": "deno task cache ; deno lint --watch ; deno run --watch --allow-all server.js",
 	"test:send": "deno run --allow-all ./tests/send.js",
-	"test:feed": "deno run --allow-all --allow-net ./src/config/feeds/youtube.js",
+	"test:feeds": "deno run --allow-read --allow-env --allow-net ./tests/feeds.js",
 	"test:all": "deno task lint && deno run --allow-all ./tests/*.js"
   },
   "nodeModulesDir": true,
