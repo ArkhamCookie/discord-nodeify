@@ -1,6 +1,6 @@
 # discord-nodeify
 
-A toolkit for sending notifcations in your Discord servers.
+A toolkit for sending notifications in your Discord servers.
 
 ## Usage
 
