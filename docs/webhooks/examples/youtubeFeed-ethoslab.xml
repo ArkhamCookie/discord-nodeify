@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCFKDEp9si4RmHFWJW1vYsMA"/>
+ <id>yt:channel:</id>
+ <yt:channelId></yt:channelId>
+ <title>EthosLab</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA"/>
+ <author>
+  <name>EthosLab</name>
+  <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+ </author>
+ <published>2008-09-23T20:09:14+00:00</published>
+ <entry>
+  <id>yt:video:CDIO5aNGmF8</id>
+  <yt:videoId>CDIO5aNGmF8</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - HermitCraft S9#12: Ice Road Truckers</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CDIO5aNGmF8"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-07-01T19:31:35+00:00</published>
+  <updated>2023-07-01T19:31:35+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - HermitCraft S9#12: Ice Road Truckers</media:title>
+   <media:content url="https://www.youtube.com/v/CDIO5aNGmF8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CDIO5aNGmF8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Gunpowder supplies are running low so it is time to setup a creeper farm. Then we head out to the boat race track and try improve things with various details.
+
+HermitCraft Website: http://www.hermitcraft.com
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#hermitcraft #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="6825" average="5.00" min="1" max="5"/>
+    <media:statistics views="50942"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Jaw2op54Few</id>
+  <yt:videoId>Jaw2op54Few</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Etho Plays Minecraft - Episode 580: 1.20 Trails &amp; Tales</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Jaw2op54Few"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-06-14T18:07:08+00:00</published>
+  <updated>2023-06-26T20:00:04+00:00</updated>
+  <media:group>
+   <media:title>Etho Plays Minecraft - Episode 580: 1.20 Trails &amp; Tales</media:title>
+   <media:content url="https://www.youtube.com/v/Jaw2op54Few?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Jaw2op54Few/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Minecraft 1.20 Trails &amp; Tales update is here! Today we focus on going around exploring and collecting all the new stuff added into Minecraft.
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+World Download (550): https://drive.google.com/file/d/1aJ6we_pq1pqU_4ofgXD3ACfEGasBNBQn/view?usp=sharing
+
+Reminder: People advertising, spamming, or being rude in the channel comments will be blocked.</media:description>
+   <media:community>
+    <media:starRating count="22583" average="5.00" min="1" max="5"/>
+    <media:statistics views="393683"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dH9h0990yyY</id>
+  <yt:videoId>dH9h0990yyY</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Etho's Modded Minecraft S2 #12: Satchel of Snacks</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=dH9h0990yyY"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-06-07T20:11:15+00:00</published>
+  <updated>2023-06-11T02:28:09+00:00</updated>
+  <media:group>
+   <media:title>Etho's Modded Minecraft S2 #12: Satchel of Snacks</media:title>
+   <media:content url="https://www.youtube.com/v/dH9h0990yyY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dH9h0990yyY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Enough is enough! 12 episodes in is far too long to go without getting some decent enchantments. However, resources are running low, so we head out to do some caving. Then we look into the idea of setting up a crazy factory.
+
+Minecraft: v1.16.5
+Seed: -8643623643821936147
+Shaders: Complementary Shaders (v4.7)
+
+Main Mods Used: 
+Forge, AdHooks, AlexsMobs, AppleSkin, Aquaculture, ArchitectsPalette, Atmospheric, Autumnity, BagOfYurting, BambooBlocks, BetterEndForge, BetterMineshafts, BiomesOPlenty, Botania, BuzzierBees, CosmicNPCs, CraftingTweaks, Create, CustomNPCs, Cyclic, DarkerDepths, DarkUtilities, DecorativeBlocks, DungeonsGear, DungeonsMobs, DungeonsPlus, DynamicSurroundings, EnchantWithMob, Endergetic, EndRemasteredForge, EnhancedMushrooms, EntityCulling, Environmental, FallingLeaves, FarmersDelight, FerriteCore, FinsAndTails, FramedBlocks, GoblinTraders, Gravestone, GuardVillagers, HandCannon, ImmersiveEngineering, ImmersivePetroleum, InfernalExpansion, InventoryPets, JEI, JER, Journeymap, MarketCrates, Mekanism, MoreMinecarts, Neapolitan, NethersDelight, OptiFine, PneumaticCraftRepressurized, PSI, RemovePotionsIcons, Quark, SavageAndRavage, SophisticatedBackpacks, Spiders2.0, StorageDrawers, Supplementaries, Tetra, Turtlemancy, TwilightForest, UntamedWilds, UpgradeAquatic, ValhelsiaStructures, VisualWorkbench
+
+Note: Many of these mods also require additional library mods not mentioned. Forge should give you a list of these needed when you start up the game.
+
+I want to give a special thanks to the mod makers and the modding community for all your excellent hard work.</media:description>
+   <media:community>
+    <media:starRating count="17605" average="5.00" min="1" max="5"/>
+    <media:statistics views="241293"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZyGnfnp761A</id>
+  <yt:videoId>ZyGnfnp761A</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Etho Plays Minecraft - Episode 579: System Startup</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZyGnfnp761A"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-05-22T18:32:26+00:00</published>
+  <updated>2023-06-29T05:25:18+00:00</updated>
+  <media:group>
+   <media:title>Etho Plays Minecraft - Episode 579: System Startup</media:title>
+   <media:content url="https://www.youtube.com/v/ZyGnfnp761A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ZyGnfnp761A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Today we go for a big push to get the Villager Trading system finished and the Ultimate Enchanting system. Then we run through how it works and the startup process we need to follow for the first time running it.
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+World Download (550): https://drive.google.com/file/d/1aJ6we_pq1pqU_4ofgXD3ACfEGasBNBQn/view?usp=sharing
+
+Reminder: People advertising, spamming, or being rude in the channel comments will be blocked.</media:description>
+   <media:community>
+    <media:starRating count="21518" average="5.00" min="1" max="5"/>
+    <media:statistics views="330886"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DSexE0UMzpg</id>
+  <yt:videoId>DSexE0UMzpg</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - HermitCraft S9#11: TCG Championship Chaos</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DSexE0UMzpg"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-05-14T18:44:55+00:00</published>
+  <updated>2023-06-20T19:18:36+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - HermitCraft S9#11: TCG Championship Chaos</media:title>
+   <media:content url="https://www.youtube.com/v/DSexE0UMzpg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DSexE0UMzpg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Today we check out the conclusion to Beef's Season 1 TCG Championship. Cubfan also hosts another round of Total Chaos for all the Hermits.
+
+xB: https://www.youtube.com/@xBCrafted
+Cubfan: https://www.youtube.com/@cubfan
+Beef: https://www.youtube.com/@VintageBeef
+Docm: https://www.youtube.com/@docm77
+
+HermitCraft Website: http://www.hermitcraft.com
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#hermitcraft #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="20124" average="5.00" min="1" max="5"/>
+    <media:statistics views="246330"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Tn9eQAAD5_Y</id>
+  <yt:videoId>Tn9eQAAD5_Y</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Etho Plays Minecraft - Episode 578: Splash Auto Farmer</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Tn9eQAAD5_Y"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-05-05T18:34:13+00:00</published>
+  <updated>2023-06-17T08:49:08+00:00</updated>
+  <media:group>
+   <media:title>Etho Plays Minecraft - Episode 578: Splash Auto Farmer</media:title>
+   <media:content url="https://www.youtube.com/v/Tn9eQAAD5_Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Tn9eQAAD5_Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The EnderEnder 3.0 is overdue for an upgrade, so we experiment with a method of killing mobs automatically using splash potions. The Ultimate Enchanting system gets its looks figured out. We also get started with the new 1.19.4 horse breeding mechanics.
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+World Download (550): https://drive.google.com/file/d/1aJ6we_pq1pqU_4ofgXD3ACfEGasBNBQn/view?usp=sharing
+
+Reminder: People advertising, spamming, or being rude in the channel comments will be blocked.</media:description>
+   <media:community>
+    <media:starRating count="22457" average="5.00" min="1" max="5"/>
+    <media:statistics views="351082"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vNzdJgQO7xQ</id>
+  <yt:videoId>vNzdJgQO7xQ</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Etho Plays Minecraft - Episode 577: Fun, Exciting, &amp; Dangerous</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vNzdJgQO7xQ"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-04-24T19:34:05+00:00</published>
+  <updated>2023-06-14T16:27:58+00:00</updated>
+  <media:group>
+   <media:title>Etho Plays Minecraft - Episode 577: Fun, Exciting, &amp; Dangerous</media:title>
+   <media:content url="https://www.youtube.com/v/vNzdJgQO7xQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vNzdJgQO7xQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Today we finish up most of the redstone on the Ultimate Enchanting System. We dredge through the villagers until we have a near perfect Librarian trading haul setup. We experiment with using Withers to mine deepslate for us. Then finally, Sandy City gets it's last main building put in.
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+World Download (550): https://drive.google.com/file/d/1aJ6we_pq1pqU_4ofgXD3ACfEGasBNBQn/view?usp=sharing
+
+Reminder: People advertising, spamming, or being rude in the channel comments will be blocked.</media:description>
+   <media:community>
+    <media:starRating count="23562" average="5.00" min="1" max="5"/>
+    <media:statistics views="357215"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PFwyuUVosrU</id>
+  <yt:videoId>PFwyuUVosrU</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - Limited Life #8: Betrayal &amp; Loyalty</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PFwyuUVosrU"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-04-21T16:01:57+00:00</published>
+  <updated>2023-06-08T12:09:52+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - Limited Life #8: Betrayal &amp; Loyalty</media:title>
+   <media:content url="https://www.youtube.com/v/PFwyuUVosrU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PFwyuUVosrU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Limited Life is an odd mix of a Social and PvP Minecraft game started by Grian. Players are thrown into a tiny world with almost no rules, except survive as long as possible.
+
+Green = 16+ Hours
+Yellow = 8+ Hours
+Red = 0+ Hours
+
+Death = Lose 1 Hour
+Kill = Gain 30 Minutes
+Boogeyman Death/Kill = Rates Double
+
+Red Players are given the goal of killing all the other players in the game. Yellow players can kill all green player. Each episode Boogeymen are chosen in secret and randomly to kill another player.
+
+Grian: https://www.youtube.com/user/Xelqua
+Smallishbeans: https://www.youtube.com/user/SmallishBeans
+Smajor1995: https://www.youtube.com/user/Dangthatsalongname
+bigbst4tz2: https://www.youtube.com/c/Bigbst4tz22
+Bdouble0100: https://www.youtube.com/user/BdoubleO100
+InTheLittleWood: https://www.youtube.com/user/inthelittlewoods
+GoodTimeWithScar: https://www.youtube.com/user/GoodTimesWithScar
+impulseSV: https://www.youtube.com/user/impulseSV
+Tango: https://www.youtube.com/user/TangoTekLP
+ZombieCleo: https://www.youtube.com/user/ZombieCleo
+SolidarityGaming: https://www.youtube.com/user/SolidarityGaming
+Skizzleman: https://www.youtube.com/user/MCSkizzleman
+PearlescentMoon: https://www.youtube.com/c/PearlescentMoon
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#limitedlife #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="21471" average="5.00" min="1" max="5"/>
+    <media:statistics views="277950"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:P2_AUcWo3Pk</id>
+  <yt:videoId>P2_AUcWo3Pk</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - HermitCraft S9#10: Alien Insides</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=P2_AUcWo3Pk"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-04-16T16:38:30+00:00</published>
+  <updated>2023-06-09T21:10:51+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - HermitCraft S9#10: Alien Insides</media:title>
+   <media:content url="https://www.youtube.com/v/P2_AUcWo3Pk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/P2_AUcWo3Pk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This episode is too long! Today we check out the interior building style for the alien/organic base. We make some music with Zedaph that absolutely blasts. We check out some new features with the big boat race. Then it is Total Chaos time as we face Beef in the quarterfinals of the TCG tournament.
+
+Note Block Song: Tchaikovsky - 1812 Overture
+
+Zedaph: https://www.youtube.com/@Zedaph
+Cubfan: https://www.youtube.com/@cubfan
+Beef: https://www.youtube.com/@VintageBeef
+Docm: https://www.youtube.com/@docm77
+Rendog: https://www.youtube.com/@rendog
+
+HermitCraft Website: http://www.hermitcraft.com
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#hermitcraft #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="28057" average="5.00" min="1" max="5"/>
+    <media:statistics views="430342"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CDwJLg06ONw</id>
+  <yt:videoId>CDwJLg06ONw</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - Limited Life #6&amp;7: Struggling For Life</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CDwJLg06ONw"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-04-14T16:31:54+00:00</published>
+  <updated>2023-06-17T08:11:14+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - Limited Life #6&amp;7: Struggling For Life</media:title>
+   <media:content url="https://www.youtube.com/v/CDwJLg06ONw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CDwJLg06ONw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Limited Life is an odd mix of a Social and PvP Minecraft game started by Grian. Players are thrown into a tiny world with almost no rules, except survive as long as possible.
+
+Green = 16+ Hours
+Yellow = 8+ Hours
+Red = 0+ Hours
+
+Death = Lose 1 Hour
+Kill = Gain 30 Minutes
+Boogeyman Death/Kill = Rates Double
+
+Red Players are given the goal of killing all the other players in the game. Yellow players can kill all green player. Each episode Boogeymen are chosen in secret and randomly to kill another player.
+
+Grian: https://www.youtube.com/user/Xelqua
+Smallishbeans: https://www.youtube.com/user/SmallishBeans
+Smajor1995: https://www.youtube.com/user/Dangthatsalongname
+bigbst4tz2: https://www.youtube.com/c/Bigbst4tz22
+Bdouble0100: https://www.youtube.com/user/BdoubleO100
+InTheLittleWood: https://www.youtube.com/user/inthelittlewoods
+GoodTimeWithScar: https://www.youtube.com/user/GoodTimesWithScar
+impulseSV: https://www.youtube.com/user/impulseSV
+Tango: https://www.youtube.com/user/TangoTekLP
+ZombieCleo: https://www.youtube.com/user/ZombieCleo
+SolidarityGaming: https://www.youtube.com/user/SolidarityGaming
+Skizzleman: https://www.youtube.com/user/MCSkizzleman
+PearlescentMoon: https://www.youtube.com/c/PearlescentMoon
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#limitedlife #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="17373" average="5.00" min="1" max="5"/>
+    <media:statistics views="233480"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sPF3M5o0bMU</id>
+  <yt:videoId>sPF3M5o0bMU</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - HermitCraft S9#9: Etho vs. Bdubs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sPF3M5o0bMU"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-04-03T18:35:54+00:00</published>
+  <updated>2023-06-08T07:20:08+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - HermitCraft S9#9: Etho vs. Bdubs</media:title>
+   <media:content url="https://www.youtube.com/v/sPF3M5o0bMU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sPF3M5o0bMU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Today we face off against the magnificent Bdubs in the first round of Beef's server wide TCG tournament. Then we do the long awaited horse race on the Horse Course we built together, back in Season 8 of Hermitcraft.
+
+BdoubleO: https://www.youtube.com/@bdoubleo
+Cubfan: https://www.youtube.com/@cubfan
+Beef: https://www.youtube.com/@VintageBeef
+
+HermitCraft Website: http://www.hermitcraft.com
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#hermitcraft #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="22537" average="5.00" min="1" max="5"/>
+    <media:statistics views="298377"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lOXJP6pgD-4</id>
+  <yt:videoId>lOXJP6pgD-4</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - Limited Life #5: Awkward Family Supper</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=lOXJP6pgD-4"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-03-31T17:42:48+00:00</published>
+  <updated>2023-06-07T16:55:46+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - Limited Life #5: Awkward Family Supper</media:title>
+   <media:content url="https://www.youtube.com/v/lOXJP6pgD-4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lOXJP6pgD-4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Limited Life is an odd mix of a Social and PvP Minecraft game started by Grian. Players are thrown into a tiny world with almost no rules, except survive as long as possible.
+
+Green = 16+ Hours
+Yellow = 8+ Hours
+Red = 0+ Hours
+
+Death = Lose 1 Hour
+Kill = Gain 30 Minutes
+Boogeyman Death/Kill = Rates Double
+
+Red Players are given the goal of killing all the other players in the game. Yellow players can kill all green player. Each episode Boogeymen are chosen in secret and randomly to kill another player. If they fail to do so, they will lose all except 1 of their lives in the next episode.
+
+Grian: https://www.youtube.com/user/Xelqua
+Smallishbeans: https://www.youtube.com/user/SmallishBeans
+Smajor1995: https://www.youtube.com/user/Dangthatsalongname
+bigbst4tz2: https://www.youtube.com/c/Bigbst4tz22
+Bdouble0100: https://www.youtube.com/user/BdoubleO100
+InTheLittleWood: https://www.youtube.com/user/inthelittlewoods
+GoodTimeWithScar: https://www.youtube.com/user/GoodTimesWithScar
+impulseSV: https://www.youtube.com/user/impulseSV
+Tango: https://www.youtube.com/user/TangoTekLP
+ZombieCleo: https://www.youtube.com/user/ZombieCleo
+SolidarityGaming: https://www.youtube.com/user/SolidarityGaming
+Skizzleman: https://www.youtube.com/user/MCSkizzleman
+PearlescentMoon: https://www.youtube.com/c/PearlescentMoon
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#limitedlife #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="19610" average="5.00" min="1" max="5"/>
+    <media:statistics views="265475"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FFt4mtm7vtI</id>
+  <yt:videoId>FFt4mtm7vtI</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Etho's Modded Minecraft S2 #11: Fishing Shack</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FFt4mtm7vtI"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-03-30T18:49:00+00:00</published>
+  <updated>2023-06-13T01:12:38+00:00</updated>
+  <media:group>
+   <media:title>Etho's Modded Minecraft S2 #11: Fishing Shack</media:title>
+   <media:content url="https://www.youtube.com/v/FFt4mtm7vtI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FFt4mtm7vtI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Today we work at expanding our starter town by adding a new Dock &amp; Fishing Shack onto the beach area. Then we test it out with some riveting fishing from the Aquaculture 2 mod.
+
+Minecraft: v1.16.5
+Seed: -8643623643821936147
+Shaders: Complementary Shaders (v4.7)
+
+Main Mods Used: 
+Forge, AdHooks, AlexsMobs, AppleSkin, Aquaculture, ArchitectsPalette, Atmospheric, Autumnity, BagOfYurting, BambooBlocks, BetterEndForge, BetterMineshafts, BiomesOPlenty, Botania, BuzzierBees, CosmicNPCs, CraftingTweaks, Create, CustomNPCs, Cyclic, DarkerDepths, DarkUtilities, DecorativeBlocks, DungeonsGear, DungeonsMobs, DungeonsPlus, DynamicSurroundings, EnchantWithMob, Endergetic, EndRemasteredForge, EnhancedMushrooms, EntityCulling, Environmental, FallingLeaves, FarmersDelight, FerriteCore, FinsAndTails, FramedBlocks, GoblinTraders, Gravestone, GuardVillagers, HandCannon, ImmersiveEngineering, ImmersivePetroleum, InfernalExpansion, InventoryPets, JEI, JER, Journeymap, MarketCrates, Mekanism, MoreMinecarts, Neapolitan, NethersDelight, OptiFine, PneumaticCraftRepressurized, PSI, RemovePotionsIcons, Quark, SavageAndRavage, SophisticatedBackpacks, Spiders2.0, StorageDrawers, Supplementaries, Tetra, Turtlemancy, TwilightForest, UntamedWilds, UpgradeAquatic, ValhelsiaStructures, VisualWorkbench
+
+Note: Many of these mods also require additional library mods not mentioned. Forge should give you a list of these needed when you start up the game.
+
+I want to give a special thanks to the mod makers and the modding community for all your excellent hard work.</media:description>
+   <media:community>
+    <media:starRating count="20327" average="5.00" min="1" max="5"/>
+    <media:statistics views="283643"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-c7pGCdBulc</id>
+  <yt:videoId>-c7pGCdBulc</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - Limited Life #4: Green Hunting Day</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-c7pGCdBulc"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-03-24T18:05:10+00:00</published>
+  <updated>2023-06-14T17:12:10+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - Limited Life #4: Green Hunting Day</media:title>
+   <media:content url="https://www.youtube.com/v/-c7pGCdBulc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-c7pGCdBulc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Limited Life is an odd mix of a Social and PvP Minecraft game started by Grian. Players are thrown into a tiny world with almost no rules, except survive as long as possible.
+
+Green = 16+ Hours
+Yellow = 8+ Hours
+Red = 0+ Hours
+
+Death = Lose 1 Hour
+Kill = Gain 30 Minutes
+Boogeyman Death/Kill = Rates Double
+
+Red Players are given the goal of killing all the other players in the game. Yellow players can kill all green player. Each episode Boogeymen are chosen in secret and randomly to kill another player. If they fail to do so, they will lose all except 1 of their lives in the next episode.
+
+Grian: https://www.youtube.com/user/Xelqua
+Smallishbeans: https://www.youtube.com/user/SmallishBeans
+Smajor1995: https://www.youtube.com/user/Dangthatsalongname
+bigbst4tz2: https://www.youtube.com/c/Bigbst4tz22
+Bdouble0100: https://www.youtube.com/user/BdoubleO100
+InTheLittleWood: https://www.youtube.com/user/inthelittlewoods
+GoodTimeWithScar: https://www.youtube.com/user/GoodTimesWithScar
+impulseSV: https://www.youtube.com/user/impulseSV
+Tango: https://www.youtube.com/user/TangoTekLP
+ZombieCleo: https://www.youtube.com/user/ZombieCleo
+SolidarityGaming: https://www.youtube.com/user/SolidarityGaming
+Skizzleman: https://www.youtube.com/user/MCSkizzleman
+PearlescentMoon: https://www.youtube.com/c/PearlescentMoon
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#limitedlife #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="22564" average="5.00" min="1" max="5"/>
+    <media:statistics views="268570"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CSYcyhPiOUw</id>
+  <yt:videoId>CSYcyhPiOUw</yt:videoId>
+  <yt:channelId>UCFKDEp9si4RmHFWJW1vYsMA</yt:channelId>
+  <title>Minecraft - Limited Life #3: 2 Hours 2 Diamonds</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CSYcyhPiOUw"/>
+  <author>
+   <name>EthosLab</name>
+   <uri>https://www.youtube.com/channel/UCFKDEp9si4RmHFWJW1vYsMA</uri>
+  </author>
+  <published>2023-03-17T19:21:50+00:00</published>
+  <updated>2023-06-14T15:20:21+00:00</updated>
+  <media:group>
+   <media:title>Minecraft - Limited Life #3: 2 Hours 2 Diamonds</media:title>
+   <media:content url="https://www.youtube.com/v/CSYcyhPiOUw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CSYcyhPiOUw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Limited Life is an odd mix of a Social and PvP Minecraft game started by Grian. Players are thrown into a tiny world with almost no rules, except survive as long as possible.
+
+Green = 16+ Hours
+Yellow = 8+ Hours
+Red = 0+ Hours
+
+Death = Lose 1 Hour
+Kill = Gain 30 Minutes
+Boogeyman Death/Kill = Rates Double
+
+Red Players are given the goal of killing all the other players in the game. Yellow players can kill all green player. Each episode Boogeymen are chosen in secret and randomly to kill another player. If they fail to do so, they will lose all except 1 of their lives in the next episode.
+
+Special thanks to BdoubleO for his video at the mob farm, and for him just being him.
+
+Grian: https://www.youtube.com/user/Xelqua
+Smallishbeans: https://www.youtube.com/user/SmallishBeans
+Smajor1995: https://www.youtube.com/user/Dangthatsalongname
+bigbst4tz2: https://www.youtube.com/c/Bigbst4tz22
+Bdouble0100: https://www.youtube.com/user/BdoubleO100
+InTheLittleWood: https://www.youtube.com/user/inthelittlewoods
+GoodTimeWithScar: https://www.youtube.com/user/GoodTimesWithScar
+impulseSV: https://www.youtube.com/user/impulseSV
+Tango: https://www.youtube.com/user/TangoTekLP
+ZombieCleo: https://www.youtube.com/user/ZombieCleo
+SolidarityGaming: https://www.youtube.com/user/SolidarityGaming
+Skizzleman: https://www.youtube.com/user/MCSkizzleman
+PearlescentMoon: https://www.youtube.com/c/PearlescentMoon
+
+Twitter: http://www.twitter.com/EthoLP
+TwitchTV: http://www.twitch.tv/ethotv/
+
+#limitedlife #etho #minecraft</media:description>
+   <media:community>
+    <media:starRating count="19298" average="5.00" min="1" max="5"/>
+    <media:statistics views="264856"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

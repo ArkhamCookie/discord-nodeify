@@ -1,0 +1,16 @@
+{
+	"feeds": {
+		"base": {
+			"youtube": {
+				"videos": "https://youtube.com/feeds/videos.xml?channel_id="
+			},
+			"podcasts": {
+				"substack": "https://api.substack.com/feed/podcast/"
+			}
+		},
+		"youtube": {
+			"ethoslab": "UCFKDEp9si4RmHFWJW1vYsMA",
+			"yourmom": "ID"
+		}
+	}
+}
