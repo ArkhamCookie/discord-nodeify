@@ -2,7 +2,6 @@ import { MessageBuilder } from 'discord-webhook'
 import { HOOK } from './send.js'
 
 const embed = new MessageBuilder()
-	/* eslint-disable no-undef */
 	.setTitle('My title here')
 	.setAuthor(
 		'Author here',
@@ -21,7 +20,6 @@ const embed = new MessageBuilder()
 		'https://cdn.discordapp.com/embed/avatars/0.png'
 	)
 	.setTimestamp()
-/* eslint-enable no-undef */
 // .setAuthor('foo')
 
 function sendEmbeded(message, embed) {
@@ -31,10 +29,3 @@ function sendEmbeded(message, embed) {
 }
 
 export { embed, sendEmbeded }
-
-// /*
-console.log(embed)
-
-HOOK.send(embed)
-// sendEmbeded('This is a message...')
-// */
