@@ -15,7 +15,7 @@ const BOT_TOKEN = Deno.env.get('BOT_TOKEN')
 
 /** Config File */
 const file = await import('../../config.json', {
-	assert: { type: 'json' }
+	with: { type: 'json' }
 })
 const ConfigFile = file.default
 

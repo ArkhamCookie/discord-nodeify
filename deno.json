@@ -1,0 +1,16 @@
+{
+  "tasks": {
+	"cache": "deno cache ./src/*.js ./src/*/*.js ./tests/*.js",
+	"dev": "deno task cache ; deno run --watch --allow-all server.js",
+
+	"test:send": "deno run --allow-all ./tests/send.js",
+	"test:feeds": "deno run --allow-read --allow-env --allow-net ./tests/feeds.js",
+	"test:all": "deno task lint && deno run --allow-all ./tests/*.js"
+  },
+  "nodeModulesDir": true,
+  "imports": {
+	"dotenv": "https://deno.land/std@0.212.0/dotenv/load.ts",
+	"discord-webhook": "npm:minimal-discord-webhook-node@1",
+	"rss": "https://deno.land/x/rss@0.6.0/mod.ts"
+  }
+}
